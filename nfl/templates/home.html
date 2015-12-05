@@ -1,0 +1,83 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+ <html lang="en">
+   <head>
+  	 <title> Draftr Home Page </title>
+  	 <meta charset="utf-8">
+  	 <meta name = "viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Using Bootstrap 3 framework with permission from getbootstrap.com -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<!-- Custom Style Sheet -->
+	<link href="{% static 'style.css' %}" rel="stylesheet" media="screen">
+
+	<link rel="icon" type="image/png" href="http://www.lawlorscustom.com/Content/Images/uploaded/Request%20Quote/Football-Ball-icon.png"
+>
+
+    </head>
+<body>
+
+	<!-- Navbar (Bootstrap 3)-->
+	<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+	</div>
+	<a class="navbar-brand" href="/"> Draftr Inc.</a>
+	<div class="collapse navbar-collapse" id="myNavbar">
+	    <ul class="nav navbar-nav">
+		<li class="active"><a href="">Home</a></li>
+		<li><a href="/qb">Quarterback</a></li>
+		<li><a href="/rb">Running Back</a></li>
+		<li><a href="/fb">Full Back</a></li>
+		<li><a href="/wr">Wide Reciever</a></li>
+		<li><a href="/te">Tight End</a></li>
+		<li><a href="/kicker">Kicker</a></li>
+	    </ul>
+	</div>
+	</div>
+	</nav>    
+    
+	
+	<div class = "jumbotron">
+	<div class = "indent">
+	<h1> Welcome to Draftr Incorporated </h1> 
+
+	<div class = "sub_header">
+	<h3> The #1 Guide to Fantasy Football Drafting </h3>
+	</div>
+	</div>
+	</div>
+
+	<div class = "center_text">
+	<div class = "yellow">
+	<h2> How do I use Draftr? </h2>
+	</div>
+	</div>
+
+	<div class = "margin">
+	<div class = "white">
+	<h3>1. Select the position you wish to fill from the navigation bar above.</h3>
+	<h3>2. Draftr will compute a list of top choices, based upon statistics as far back as 2009.</h3>
+	<h3>3. Use Draftr's recommendations to build a maximized team.</h3>
+	</div>
+	</div>	
+	
+        <div class="footer">
+        <h5> © 2015 Draftr Inc. All Rights Reserved.</h5>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+html{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+wrapper {
+	min-height: 100%;
+	margin: 0 auto -4 em;
+}
+
+h1 {
+	color:rgb(165,172,175) !important;
+}
+
+body {
+	background-image: url("green_cup.png");
+        position: relative;
+/*	margin-bottom: 40px; */
+	padding-bottom: 6rem;
+	min-height: 100%;
+}
+
+.yellow {
+	color:yellow;
+}
+
+.white {
+	color:white;
+}
+
+/*
+.hero{
+	height: 100%;
+    background: url("home_background.png") no-repeat center center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+		
+	
+	
+}
+*/
+
+.jumbotron {
+    background: url("main_background.png") no-repeat; !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative !important;
+    border: 5px !important;
+    border-color: #FFFFFF !important;
+    border-style: solid !important;
+
+}
+
+
+.sub_header {
+	margin-left: 50px;
+	margin-right:50px;
+	color:rgb(165,172,175) !important;
+}
+.center_text {
+	text-align: center;
+}
+
+.indent {
+	margin-left:50px;
+}
+
+.margin {
+        margin-left: 50px !important;
+  	margin-right: 50px !important;
+}
+
+.push, .footer {
+	height: 4em;
+}
+
+.footer {
+	color:gray;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	padding: 1rem;
+  	background-color:rgb(30, 30, 30);
+  	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color:#f1f1f1 
+	
+}
+table.dataTable>tbody>tr.child:hover {
+    background: transparent !important;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #efefef !important;
+}
+
+th{
+	background-color:#f1f1f1
+	
+}
+

@@ -1,0 +1,35 @@
+h1 {
+	margin-left: 50px;
+	margin-right: 50px;
+	color:rgb(165,172,175) !important;
+}
+
+body {
+	background-color:rgb(105,190,40);
+}
+
+
+.yellow {
+	color:yellow;
+}
+
+.white {
+	color:white;
+}
+
+.jumbotron {
+    background-color:rgb(0,43,68) !important;
+}
+
+.sub_header {
+	margin-left: 50px;
+	margin-right:50px;
+	color:rgb(165,172,175) !important;
+}
+.center_text {
+	text-align: center;
+}
+
+.indent {
+	margin-left:50px;
+}
